@@ -1,0 +1,168 @@
+/* gerais */
+body{
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#principal{
+    width: 1080px;
+    min-width: ;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+
+/* Header */
+header{
+    padding: 15px 0 0 0;
+    height: 55px;
+}
+#logo h1{
+    float: left;
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -99999px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+/* menu lateral */
+#menu_topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px;
+}
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
+ /* Conteúdo da página */
+
+ #conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+ /*aside */
+ aside{
+    background-color: #ebe7dd;
+ }
+
+ /* formulário */
+ #form{
+    background: #cdc8b1;
+    padding: 0 27px 27px 27px;
+    margin-bottom: 20px;
+ }
+ #form h4{
+    padding-top: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #86521a;
+ }
+ input{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+ }
+ input.campo{
+    border: 1px solid #ada484;
+    margin-bottom: 5px;
+ }
+ input.bottom{
+    background: #9b9271;
+    color:white ;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+ }
+ fieldset{
+    border: none;
+ }
+
+ /* galeria */
+
+ section#galeria h4{
+    padding: 0 27px 0 27px;
+ }
+ section#galeria{
+    padding-bottom: 27px;
+ }
+ section#galeria a{
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    padding: 17px 15px 17px 15px;
+    margin: 0px 10px 0px 20px;
+}
+section#galeria img{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+ #ft_galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+ }
+
+ /*parte de baixo da foto */
+ #direita, #esquerda{
+   width: 50%;
+ }
+ #baixo{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   margin-top: 17px;
+ }
+ #baixo h4{
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #227115;
+ }
+ #baixo ul{
+    list-style: square;
+ }
+ #video iframe{
+   padding: 0 0 0 20px;
+ }
+ #mapa iframe{
+   padding: 0 0 0 20px;
+ }
+ #historia p{
+   padding: 0 20px 12px 20px;
+ }
+
+ /* rodapé */
+ footer{
+   padding: 20px 0 30px 0;
+   margin-top: 20px;
+   background: url(../imagens/fundo-rodape.png) no-repeat center top;
+ }
+ #menu_rodape, #menu_inferior{
+   font-size: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+ }
+ #menu_inferior a:link{
+   margin: 0 6px 0 6px;
+ }
